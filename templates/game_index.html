@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <title>minesweeper</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='stylesheet/game_index.css') }}">
+    <body>
+        <center>
+            
+        <h1 class="h1">{{instruction}}</h1>
+        <form action = 'http://127.0.0.1:5000/game_start' method ='post'>
+            <div class="toggle-buttons"> 
+                <input type="radio"  id="b1" name="level" value="0" checked>
+                <label for="b1">beginner</label>
+                <input type="radio"  id="b2" name="level" value="1">
+                <label for="b2">advanced</label> 
+                <input type="radio"  id="b3" name="level" value="2">
+                <label for="b3">profi</label> 
+            </div>
+        <h1><input class='button' type = 'submit' value = 'ENTER' /></h1>
+        </form>
+        </center>
+    </body>
+</html>

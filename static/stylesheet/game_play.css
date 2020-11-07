@@ -1,0 +1,88 @@
+body {
+    background-color: forestgreen;
+}
+
+.h1  {
+    border: groove;
+    border-width: 3px;
+    border-radius: 2ex;
+    margin-left: 40%;
+    margin-right: 40%;
+    
+    margin-bottom: 2%;
+    background-color: rgb(255, 238, 0);
+    color: rgb(252, 5, 5);
+  }
+
+.button{
+    background-color: rgb(255, 238, 0);
+    color: rgb(252, 5, 5);
+    border: 3px groove rgb(252, 5, 5);
+    border-radius: 2ex;
+    padding: 10px;
+}
+
+.button:hover{
+    background-color: rgb(252, 5, 5);
+    color: rgb(255, 238, 0);
+}
+
+
+
+table{
+    background-color: dimgray;
+    border: 3px groove dimgray;
+    margin-bottom: auto;
+}
+
+.game_button{
+    background-color: turquoise;
+    border: 2px groove;
+    border-color: steelblue;
+}
+
+.game_button:hover{
+    background-color: gainsboro;
+    border: 2px groove;
+    border-color: steelblue;
+}
+
+.game_button_2{
+    background-color: springgreen;
+    border: 2px groove;
+    border-color: steelblue;
+}
+
+
+
+.flag_button{
+    background: tomato;
+    border: 2px groove;
+    border-color: steelblue;
+}
+
+.flag_button:hover{
+    background-color: gainsboro;
+    border: 2px groove;
+    border-color: steelblue;
+}
+
+.toggle-buttons input[type="radio"]{
+    background-color: rgb(255, 238, 0);
+    visibility:hidden;
+}
+.toggle-buttons label {
+    background-color: rgb(255, 238, 0);
+    color: rgb(252, 5, 5);
+    border: 3px groove rgb(252, 5, 5);
+    border-radius: 2ex;
+    padding: 0.5em;
+}
+ 
+.toggle-buttons input:checked + label {
+  background: rgb(252, 5, 5);
+  color: rgb(255, 238, 0);
+  box-shadow: none;
+}
+
+
