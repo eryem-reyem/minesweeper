@@ -1,0 +1,50 @@
+body {
+    background-color: forestgreen;
+}
+
+.h1  {
+    border: groove;
+    border-width: 3px;
+    border-radius: 2ex;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 238, 0);
+    color: rgb(252, 5, 5);
+  }
+
+.button{
+    background-color: rgb(255, 238, 0);
+    color: rgb(252, 5, 5);
+    border: 3px groove rgb(252, 5, 5);
+    border-radius: 2ex;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.button:hover{
+    background-color: rgb(252, 5, 5);
+    color: rgb(255, 238, 0);
+}
+
+  
+.toggle-buttons input[type="radio"]{
+    margin-top: 40px;
+    background-color: rgb(255, 238, 0);
+    visibility:hidden;
+}
+.toggle-buttons label {
+    background-color: rgb(255, 238, 0);
+    color: rgb(252, 5, 5);
+    border: 3px groove rgb(252, 5, 5);
+    border-radius: 2ex;
+    padding: 0.5em;
+}
+ 
+.toggle-buttons input:checked + label {
+  background: rgb(252, 5, 5);
+  color: rgb(255, 238, 0);
+  box-shadow: none;
+}
+
